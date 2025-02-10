@@ -6,42 +6,42 @@ export default function Gallery() {
       <Card
         imgUri="/images/galaxy.webp"
         altText="an AI generated galaxy"
-        caption="A galaxy"
+        caption="A Galaxy"
         citation="Microsoft Copilot"
-        color="#7086ff" 
+        color="#7086ff"
       />
       <Card
         imgUri="/images/asteroid.webp"
         altText="an AI generated asteroid"
-        caption="An asteroid"
+        caption="An Asteroid"
         citation="Microsoft Copilot"
         color="#a8a9aa"
       />
       <Card
         imgUri="/images/black-hole.webp"
         altText="an AI generated black hole"
-        caption="A black hole"
+        caption="A Black Hole"
         citation="Microsoft Copilot"
         color="#e58c43"
       />
       <Card
         imgUri="/images/cloud-nebulae.webp"
         altText="an AI generated cloud nebulae"
-        caption="Cloud nebulae"
+        caption="Cloud Nebulae"
         citation="Microsoft Copilot"
         color="#9ad2ea"
       />
       <Card
         imgUri="/images/distant-space.webp"
         altText="an AI generated distant space"
-        caption="Distant space"
+        caption="Distant Space"
         citation="Microsoft Copilot"
         color="#5a5a5a"
       />
       <Card
         imgUri="/images/galaxy-collision.webp"
         altText="an AI generated galaxy collision"
-        caption="Galaxy collision"
+        caption="Galaxy Collision"
         citation="Microsoft Copilot"
         color="#ff69b4"
       />
@@ -55,14 +55,14 @@ export default function Gallery() {
       <Card
         imgUri="/images/pulsar.webp"
         altText="an AI generated pulsar"
-        caption="A pulsar"
+        caption="A Pulsar"
         citation="Microsoft Copilot"
         color="#d9b5ea"
       />
       <Card
         imgUri="/images/star-death.webp"
         altText="an AI generated star death"
-        caption="Star death"
+        caption="Star Death"
         citation="Microsoft Copilot"
         color="#ff4500"
       />
