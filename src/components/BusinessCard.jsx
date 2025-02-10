@@ -1,4 +1,6 @@
-export default function BusinessCard({ name, email, logo }) {
+export default function BusinessCard(
+  { name, email, logo = undefined }
+) {
   return (
     <div style={
       {
@@ -9,17 +11,17 @@ export default function BusinessCard({ name, email, logo }) {
         backgroundColor: '#ffffff',
         color: '#000000',
         display: 'flex',
-        gap: '8px'
+        gap: '8px',
+        borderRadius: '22px',
       }
-    }>
-      <img
-        src={logo}
-        alt="logo"
-        style={{
-          width: '100px',
-          height: '100px'
-        }}
-      />
+    }> {!!logo && <img
+      src={logo}
+      alt="logo"
+      style={{
+        width: '100px',
+        height: '100px'
+      }}
+    />}
       <div>
         <h2>{name}</h2>
         <p>{email}</p>
